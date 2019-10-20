@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>8</title>
+</head>
+<body>
+    
+    <script>
+    var list=["cake","apple pie", "cookie","chips","patties"]
+
+    var userInput = prompt("Sir! What your want to have", "cake");
+    var abc= false;
+        for(i=0; i<list.length; i++){
+            if (userInput===list[i]){
+        document.write("your item is exist"+i+" in place")
+        abc= true
+                break;
+    }
+    }
+    
+        
+        if(abc === false){
+        document.write("your item out of stock");
+            
+    
+        }
+    
+    </script>
+
+</body>
+</html>
