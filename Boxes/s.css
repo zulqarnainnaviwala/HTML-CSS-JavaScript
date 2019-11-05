@@ -1,0 +1,53 @@
+table {
+    text-align: center;
+    font-family: Arial, sans-serif
+}
+td{
+    width: 170px;
+}
+
+.left{
+    text-align: left;
+    padding: 15px;
+    height: 20px;
+}
+.Starter{
+    color: white;
+    background-color: steelblue;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px
+}
+.Basic{
+    color: white;
+    background-color: green ;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px
+}
+.Professional{
+    color: white;
+    background-color: rgba(214, 211, 36, 0.884);
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px
+}
+.Business{
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px
+}
+.Premeir{
+    color: white;
+    background-color:brown;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px
+}
+.grey{
+    background-color: lightgrey;
+}
+input{
+    padding: 10px;
+    width: 110px
+}
+b {
+    font-size: 40px
+}
