@@ -1,0 +1,514 @@
+* {
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+}
+
+img.logo {
+    margin: 25px;
+    width: 150px;
+}
+
+h1.slogan {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: -20px;
+    font-weight: 100;
+    color: rgb(78, 78, 78);
+    text-decoration: none
+}
+
+table.menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 55px;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+}
+
+/*MENU BUTTON_BUT NOT IN CORRECT POSTION*/
+/* *
+{
+    -webkit-tap-highlight-color: black;
+}
+
+
+#webapp_cover
+{
+    
+    top: 10%;
+    right: 0;
+    left: 100;
+    width: 39px;
+    margin-left: 0;
+    transform: translateY(-50%) scale(2);
+}
+
+#menu_button
+{
+    width: 39px;
+    overflow: hidden;
+}
+
+#menu_checkbox
+{
+    display: none;
+}
+
+#menu_label
+{
+    position: relative;
+    display: block;
+    height: 29px;
+    cursor: pointer;
+}
+
+#menu_label:before, #menu_label:after, #menu_text_bar
+{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+#menu_label:before, #menu_label:after
+{
+    content: '';
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) left;
+}
+
+#menu_label:before
+{
+    top: 0;
+}
+
+#menu_label:after
+{
+    top: 12px;
+}
+
+#menu_text_bar
+{
+    top: 24px;
+}
+#new{
+    background-color: rgba(156, 154, 154, 1);
+    box-shadow: rgba(156, 154, 154, 1);
+    border: 0px none rgba(156, 154, 154, 1);
+
+}
+#newx{
+ 
+    border: 0px none rgba(156, 154, 154, 1);
+    box-shadow: rgba(156, 154, 154, 1);
+    background-color: rgba(156, 154, 154, 1)
+}
+#menu_text_bar:before
+{
+    content: 'MENU';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+    color: rgb(7, 7, 7);
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#menu_checkbox:checked + #menu_label:before
+{
+    left: -39px;
+}
+
+#menu_checkbox:checked + #menu_label:after
+{
+    left: 39px;
+}
+
+#menu_checkbox:checked + #menu_label #menu_text_bar:before
+{
+    animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeWhileMovingUp 0.8s ease 0.2s forwards, shakeWhileMovingDown 0.2s ease 0.8s forwards;
+}
+
+@keyframes moveUpThenDown
+{
+    0%{ top:0; }
+    50%{ top:-24px;}
+    100%{ top:-14px; }
+}
+
+@keyframes shakeWhileMovingUp
+{
+    0%{ transform: rotateZ(0); }
+    25%{ transform:rotateZ(-10deg); }
+    50%{ transform:rotateZ(0deg); }
+    75%{ transform:rotateZ(10deg); }
+    100%{ transform:rotateZ(0); }
+}
+
+@keyframes shakeWhileMovingDown
+{
+    0%{ transform:rotateZ(0); }
+    80%{ transform:rotateZ(3deg); }
+    90%{ transform:rotateZ(-3deg); }
+    100%{ transform:rotateZ(0); }
+} */
+
+
+a.attribute {
+    color: rgba(156, 154, 154, 1);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+td {
+    text-align: center;
+    padding: 15px 65px 15px 65px;
+    background-color: rgb(0, 0, 0)
+}
+
+a:hover {
+    color: rgb(78, 78, 78);
+}
+
+a:active {
+    color: black
+}
+
+h1.head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 190;
+    color: rgb(78, 78, 78);
+}
+
+/*CONTACT CSS*/
+
+td.contactlist {
+    background-color: black;
+    color: rgba(156, 154, 154, 1);
+    font-size: 150%;
+    text-align: left;
+    padding-top: 20px
+}
+
+tr.contactlist {
+    background-color: black;
+    text-align: left
+}
+
+table.contactlist {
+    background-color: black;
+    text-align: left
+}
+
+img.img {
+    background-color: black
+}
+
+img.imgx {
+    background-color: rgb(255, 255, 255)
+}
+
+a.www {
+    background-color: black;
+    color: rgba(156, 154, 154, 1);
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(78, 78, 78);
+}
+
+a:active {
+    color: black
+}
+
+td#number:hover {
+    color: rgb(78, 78, 78);
+}
+
+td#number:active {
+    color: black
+}
+
+/*FEEDBACK*/
+
+p.feedback {
+    background-color: black;
+    color: rgba(156, 154, 154, 1);
+
+}
+#feedback{
+    overflow: hidden;
+}
+
+input.type {
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+    color: black;
+    border-bottom-color: black;
+    border-right-color: black;
+    font-size: 20px
+}
+
+input.type:hover {
+    background-color: rgba(156, 154, 154, 1)
+}
+
+input.type:active {
+    background-color: rgb(78, 78, 78);
+}
+
+textarea.type {
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+    color: black;
+    border-bottom-color: black;
+    border-right-color: black;
+    font-size: 20px
+}
+
+textarea.type:hover {
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+}
+
+textarea.type:active {
+    background-color: rgb(78, 78, 78);
+}
+
+/*SUBMIT BUTTON*/
+
+input.submit {
+    background-color: rgba(156, 154, 154, 1);
+    border-color: black;
+}
+
+input.submit:hover {
+    background-color: rgb(78, 78, 78)
+}
+
+input.submit:active {
+    background-color: rgb(255, 255, 255)
+}
+
+/*Log in*/
+
+input.submit2 {
+    background-color: rgba(156, 154, 154, 1);
+    border-color: rgb(0, 0, 0);
+}
+
+input.submit2:hover {
+    background-color: rgb(78, 78, 78)
+}
+
+input.submit2:active {
+    background-color: rgb(255, 255, 255)
+}
+
+#submit2-Button {
+    text-align: right;
+}
+/* #blackout_button{
+    background-color: black
+} */
+
+/*ABOUT US*/
+
+h2.h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-larger;
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px 50px 0px 50px
+}
+
+p.material {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    width: 92%;
+    word-wrap: break-word;
+    margin: 10px 50px 0px 50px;
+    text-align: justify
+}
+
+a#link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 50px 0px -50px;
+    text-decoration: underline;
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+    color: black;
+    font-size: medium;
+    float: right;
+}
+
+a#link:hover {
+    color: rgb(78, 78, 78)
+}
+
+a#link:active {
+    color: rgb(0, 0, 0)
+}
+
+/*HOME*/
+
+h1#leftAlgin {
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+p.materialx {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    width: 90%;
+    word-wrap: break-word;
+    margin: 10px 10px 0px 50px;
+    text-align: justify
+}
+
+i.qoutes {
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.pic {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    box-shadow: 0px 0px 0px 5px rgb(78, 78, 78)
+}
+
+h1.headx {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: underline
+}
+
+div.marginBottom1 {
+    margin-bottom: 210px
+}
+
+div.marginBottom2 {
+    margin-bottom: 190px
+}
+div.marginBottom3 {
+    margin-bottom: 60px
+}
+
+/*SOFTWARE HOUSE*/
+
+td#shop {
+    /* DEFAULT*/
+    background-color: rgba(156, 154, 154, 1);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+}
+
+img.shop {
+    box-shadow: 0px 0px 0px 5px rgb(0, 0, 0);
+    margin: 0px 0px -5px 0px;
+    margin-left: 30px;
+    margin-bottom: 50px
+}
+
+img.shop:hover {
+    box-shadow: 0px 0px 10px 10px rgb(78, 78, 78);
+}
+
+img.shop:active {
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+}
+
+/* FOOTER */
+
+/* p.footer1 {
+    color: rgba(156, 154, 154, 1);
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+} */
+
+/* p.footer2 {
+    color: rgba(156, 154, 154, 1);
+    font-size: 15px; 
+    /* DEFAULT*/
+
+/* background-color: rgb(78, 78, 78);   */
+
+/*1*/
+
+/* background-color: rgb(255, 255, 255); */
+
+/*2*/
+
+/* background-color: blanchedalmond; */
+
+/* text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+}  */
+
+.footer {
+    /* DEFAULT*/
+    background-color: rgb(78, 78, 78);
+    /*1*/
+    /* background-color: rgb(255, 255, 255); */
+    /*2*/
+    /* background-color: blanchedalmond; */
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: rgba(156, 154, 154, 1);
+    text-align: center;
+    margin: 0% 0% 0% 0%
+}   
